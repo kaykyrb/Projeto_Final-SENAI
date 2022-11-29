@@ -1,0 +1,116 @@
+body {
+    background-color: #fff;
+}
+
+.menu_Tipos {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #007fff;
+    margin-top: 10px;
+}
+
+.menu_Tipos a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 40px;
+}
+
+.item-P {
+    margin: 15px 10px;
+    padding: 20px;
+}
+
+.item-P:hover {
+    background-color: #000;
+}
+
+.carros {
+    margin-top: 25px;
+    padding: 20px;
+    text-align: center;
+    color: #000;
+    background-color: #777;
+
+}
+
+.prod_Carros {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.prod_Carros article {
+    width: 30%;
+    background-color: #000;
+    margin: 5px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+.prod_Carros img {
+    border: 1px solid #fff;
+    max-width: 100%;
+    height: 350px;
+    width: 650px;
+}
+
+@media screen and (max-width: 830px) {
+    .menu_Tipos {
+        display: block;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .item-P {
+       border: 1px solid #333;
+    }
+
+    .prod_Carros {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .prod_Carros article {
+        width: 48%;
+        margin: 20px auto;
+    }
+
+    .prod_Carros img {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .menu_Tipos {
+        display: block;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .item-P {
+       border: 1px solid #333;
+    }
+
+    .prod_Carros {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .prod_Carros article {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .prod_Carros img {
+        height: auto;
+        width: auto;
+    }
+}

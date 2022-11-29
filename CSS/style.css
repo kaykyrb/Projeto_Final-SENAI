@@ -1,0 +1,354 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+/*cabeçalho*/
+.header {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.menu-h {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 50rem ;
+}
+
+.menu-h a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 35px;
+}
+
+.item {
+  margin-left: 7%;
+  padding: 10px 5px;
+}
+
+.item:hover {
+  background-color: #000;
+}
+
+.itemCarrinho {
+  margin-left: 10%;
+}
+
+.carrinho {
+  height: 64px;
+  width: 64px;
+}
+
+.imageBrand {
+  width: 200px;
+  height: 125px;
+  margin-left: 4%;
+}
+
+
+/*Conteudo*/
+.banner {
+  margin: 5px;
+}
+
+.imageBanner {
+  width: 100%;
+  height: 500px;
+}
+
+.titulo_L {
+  text-align: center;
+  margin-top: 15px;
+  padding: 20px;
+}
+
+.lancamentos {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.lancamentos article {
+  width: 30%;
+  background-color: #333;
+  margin: 5px;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.lancamentos img {
+  max-width: 100%;
+  height: 300px;
+  border: 2px solid #fff
+}
+
+.botao {
+  margin-top: 10px;
+  background-color: #00f;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.titulo_M {
+  background-color: #fff;
+  color: #00f;
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.mVendidos {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mVendidos article {
+  width: 30%;
+  background-color: #333;
+  margin: 5px;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.mVendidos img {
+  max-width: 100%;
+  height: 300px;
+  border: 2px solid #fff
+}
+/*Roda Pé*/
+footer {
+  margin-top: 30px;
+  background-color: #111;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.copy {
+  margin-top: 20px;
+}
+
+.contato {
+  text-align: center;
+}
+
+.localizacao {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.rede {
+  text-align: center;
+}
+
+.imageRede {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 830px) {
+  /*cabeçalho*/
+  .header {
+    width: 100%;
+  }
+
+  .itemCarrinho {
+    margin-left: -2%;
+  }
+
+  .carrinho {
+    width: 40px;
+    height: 40px;
+  }
+
+  .menu-h {
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .item {
+    margin-left: 10px;
+    padding: 10px 0;
+  }
+
+  .imageBrand {
+    width: 170px;
+    height: 130px;
+    margin-left: 3%;
+  }
+
+/*conteudo*/
+  .imageBanner {
+    width: 100%;
+    height: 300px;
+  }
+
+  .banner {
+    width: 99%;
+  }
+
+  .lancamentos {
+    flex-direction: column;
+  }
+
+  .lancamentos article {
+    width: 100%;
+  }
+
+  .mVendidos {
+    flex-direction: column;
+  }
+
+  .mVendidos article {
+    width: 100%;
+  }
+
+  /*rodape*/
+  footer {
+    width: 100%;
+    font-size: 17px;
+  }
+
+  .rede {
+    margin:  0 30px;
+  }
+  
+  .localizacao {
+    margin: 0 30px;
+
+  }
+
+  .copy {
+    margin-left: 30px;
+  }
+
+  .contato {
+    margin-right: 30px;
+  }
+
+}
+
+  @media screen and (max-width: 420px) {
+    /*cabeçalho*/
+  .header {
+    width: 100%;
+  }
+
+  .itemCarrinho {
+    margin-left: 1px;
+    padding: 10px;
+  }
+
+  .carrinho {
+    width: 40px;
+    height: 40px;
+  }
+
+  .menu-h {
+    width: 100%;
+    margin-left: 9px;
+    display: block;
+    text-align: center;
+  }
+
+  .item {
+    margin-left: auto;
+    padding: 20px 10%;
+  }
+
+  .imageBrand {
+    width: 170px;
+    height: 170px;
+    margin-left: 5%;
+  }
+
+/*conteudo*/
+  .imageBanner {
+    width: 100%;
+    height: 250px;
+  }
+
+  .banner {
+    width: 99%;
+  }
+
+  .lancamentos {
+    flex-direction: column;
+  }
+
+  .lancamentos article {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .lancamentos img {
+    height: 200px;
+  }
+
+  .mVendidos {
+    flex-direction: column;
+  }
+
+  .mVendidos article {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .mVendidos img {
+    height: 200px;
+    width: 300px;
+  }
+
+  /*rodape*/
+  footer {
+    width: 100%;
+    font-size: 20px;
+    display: block;
+  }
+
+  .rede {
+    margin: 30px;
+  }
+  
+  .localizacao {
+    margin: 30px;
+
+  }
+
+  .copy {
+    margin:30px;
+    text-align: center;
+  }
+
+  .contato {
+    margin: 30px;
+    text-align: center;
+  } 
+
+}
