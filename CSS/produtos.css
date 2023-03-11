@@ -127,7 +127,7 @@ body {
   }
 
   .item-P {
-    border: 1px solid #333;
+    border: 3px solid #000;
   }
 
   .prod_Esport {
@@ -161,7 +161,7 @@ body {
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
   .menu_Tipos {
     display: block;
     text-align: center;
@@ -169,7 +169,7 @@ body {
   }
 
   .item-P {
-    border: 1px solid #333;
+    border: 3px solid #000;
   }
 
   .prod_Esport {
