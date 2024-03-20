@@ -34,6 +34,7 @@ body {
   text-align: center;
   color: #fff;
   background-color: #222;
+  font-family: ;
 }
 
 .prod_Esport {
@@ -41,17 +42,22 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: #222;
 }
 
 .prod_Esport article {
   width: 30%;
-  background-color: #000;
   margin: 5px;
   text-align: center;
   padding: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   margin-top: 10px;
   border-radius: 10px;
+}
+
+.prod_Esport article:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .prod_Esport img {
@@ -71,17 +77,22 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: #222;
 }
 
 .prod_Suv article {
   width: 30%;
-  background-color: #333;
   margin: 5px;
   text-align: center;
   padding: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   margin-top: 15px;
   border-radius: 10px;
+}
+
+.prod_Suv article:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .prod_Suv img {
@@ -97,19 +108,19 @@ body {
 }
 
 .prod_Off {
-  padding: 20px;
+  padding: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: #222;
 }
 
 .prod_Off article {
   width: 30%;
-  background-color: #000;
   margin: 5px;
   text-align: center;
   padding: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   margin-top: 15px;
   border-radius: 10px;
 }
@@ -117,6 +128,11 @@ body {
 .prod_Off img {
   max-width: 100%;
   height: 300px;
+}
+
+.prod_Off article:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 830px) {

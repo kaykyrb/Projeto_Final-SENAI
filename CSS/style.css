@@ -12,7 +12,7 @@ body {
 
 /*cabeçalho*/
 .header {
-  background-color: #333;
+  background-color: #222;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,17 +70,22 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: #222;
 }
 
 .lancamentos article {
   width: 30%;
-  background-color: #333;
   margin: 5px;
   text-align: center;
   padding: 15px;
   margin-bottom: 60px;
   margin-top: 30px;
   border-radius: 10px;
+}
+
+.lancamentos article:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .lancamentos img {
@@ -120,17 +125,22 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: #222;
 }
 
 .mVendidos article {
   width: 30%;
-  background-color: #333;
   margin: 5px;
   text-align: center;
   padding: 15px;
   margin-bottom: 60px;
   margin-top: 30px;
   border-radius: 10px;
+}
+
+.mVendidos article:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
 }
 
 .mVendidos img {
@@ -151,16 +161,17 @@ footer {
 }
 
 .copy {
-  margin-top: 20px;
+  margin: 20px 20px 0 20px;
 }
 
 .contato {
   text-align: center;
+  margin: 0 20px 0 20px;
 }
 
 .localizacao {
   text-align: center;
-  margin-top: 10px;
+  margin: 0 20px 0 20px;
 }
 
 .rede {
